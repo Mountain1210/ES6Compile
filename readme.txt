@@ -27,4 +27,8 @@ webpack.config.js 中：
     module.exports = {
         entry: ['babel-polyfill', './app/js']
     }
+最好执行下面命令
+npm install webpack-dev-server -g
+npm install webpack-dev-server --save-dev
 
+webpack-dev-server --hot --inline
